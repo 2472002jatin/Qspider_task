@@ -8,20 +8,53 @@
   <body>
     <h1 style="text-align: center; margin-top: 8%">Registration Page</h1>
 
-    <a href="Home.html"
-      ><button
-        style="
-          background-color: gray;
-          color: black;
-          text-align: center;
-          height: 20px;
-          margin: 0 47%;
-          display: inline-block;
-          font-size: 14px;
-        "
-      >
-        back
-      </button></a
-    >
+    <form action="">
+      <fieldset>
+        <legend>Registration Form</legend>
+        <label for="ud">User : </label>
+        <input
+          type="text"
+          name="user"
+          id="ud"
+          placeholder="Enter the User name"
+        />
+        <br /><br />
+        <label for="pw">Password : </label>
+        <input
+          type="password"
+          name="pass"
+          id="pw"
+          placeholder="Enter the password"
+        /><br /><br />
+
+        <label for="cnf">Confirm Password : </label>
+        <input
+          type="password"
+          name="Cnf-pass"
+          id="cnf"
+          placeholder="RE-Enter the password"
+        /><br /><br />
+
+        <label for="phone">Phone: </label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter the Phone Number "
+        />
+        <br /><br />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter the Email"
+        />
+        <br /><br />
+
+         <button type="submit">Sumbit</button>
+         <button type="reset">Reset</button>
+      </fieldset>
+    </form>
   </body>
 </html>
